@@ -53,12 +53,11 @@ To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` st
     - Wind speed less than 4.5 m/s
     - Zero cloudiness
 
-[!NOTE] Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
+>[!NOTE]
+>Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
 
 3. Create a new DataFrame called `hotel_df` to store the city, country, coordinates, and humidity.
-
 4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
-
 5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
 ![image](https://github.com/melina-t/api_challenge/assets/132321994/8699b57b-a82e-4bb0-9ec4-8d498e5a40fd)
